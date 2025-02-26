@@ -14,7 +14,6 @@ The Search Engine with LLM (Large Language Model) is an AI-powered search engine
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
-- Node.js and npm
 - Virtual environment (optional but recommended)
 
 ### Clone the Repository
@@ -35,21 +34,7 @@ cd searchEngineWithLLM
    ```
 3. Run the backend:
    ```sh
-   python app.py
-   ```
-
-### Frontend Setup
-1. Navigate to the frontend directory:
-   ```sh
-   cd frontend
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the frontend:
-   ```sh
-   npm start
+   streamlit run app.py
    ```
 
 ## Usage
@@ -59,7 +44,6 @@ cd searchEngineWithLLM
 
 ## Technologies Used
 - Python (Flask/FastAPI)
-- React.js (Frontend)
 - NLP Libraries (spaCy, Transformers, OpenAI API)
 - Elasticsearch for search indexing
 
